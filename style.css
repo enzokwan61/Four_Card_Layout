@@ -31,6 +31,7 @@ h1 {
     margin: 20px;
     box-shadow: rgb(50 50 93 / 0.25) 0px 30px 60px -12px,
     rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+    transition: transform 0.3s ease;
 }
 
 .card_image img {
@@ -63,4 +64,11 @@ h1 {
 .card:hover {
     transform: translateY(-8px);
     background-color: orange;
+    box-shadow: rgba(243, 86, 8, 0.724) 30px 30px 40px -12px,
+    rgba(243, 87, 9, 0.72) 20px 20px 36px -18px;
+    /* padding: 10px; */
+}
+
+.card_image img:hover {
+    height: 110%;
 }
